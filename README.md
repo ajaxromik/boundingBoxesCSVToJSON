@@ -1,4 +1,8 @@
 # boundingBoxesCSVToJSON
+
+Make sure to change the `trainingImagesDir` path to the path for your own training images and the `boxesFile` to the path of the CSV file containing the necessary bounding boxes, otherwise the code will fail.
+
+
 This repo was made to convert a CSV file into an Edge Impulse `bounding_boxes.labels` (JSON) file.
 The CSV was made with the columns that appeared like so:
 
